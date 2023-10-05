@@ -1,16 +1,18 @@
-div{
-    text-align: center;
+div{    
+    text-align:center;
     max-width: 1600px;
     margin: 0 auto
 }
-nav{
-    text-align: center;
+
+#background{
+    height:725px;
+    background-color:darkgray;
 }
 nav a{
-    text-align:center;
     background-color: darkgray;
     color:blue;
     text-decoration: none;
+    text-align: center;
 }
 
 main section{
@@ -26,8 +28,8 @@ main section{
 }
 
 #hero-msg h4{
-    text-align: center;
-}
+    text-align:center;
+ }
 
 #background {
     height: 725px;
@@ -36,13 +38,13 @@ main section{
 body{
     background-color: bisque;
     color: bisque;
+
 }
 
 
 header{
     background-color: darkgray;
     color:darkgrey;
-    text-align:center;
 
 }
 
