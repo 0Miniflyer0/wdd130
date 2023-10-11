@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Young+Serif&display=swap');
+
+
 div{    
     max-width: 1600px;
 }
 
 #content{
-    margin: 0 auto;
+    margin:0;
+    
 }
 
 #background{
@@ -15,11 +20,14 @@ nav a{
     color:blue;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
+   
 }
 
 
 main section{
     text-align: center;
+    
 }
 
 .button-box{
@@ -28,15 +36,18 @@ main section{
 
 #hero-msg{
     text-align: center;
+    border: 10px solid #d9c2a3;
 }
 
 #hero-img{
     width: 1550px;
     height: 700px;
+    border: 10px solid darkgray;
 
 }
 #hero-msg h4{
     text-align:center;
+    
  }
 
 
@@ -47,12 +58,18 @@ main section{
 body{
     background-color: bisque;
     color: bisque;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+   
 }
 
-header{
+header {
     background-color: darkgray;
     color:darkgray;
-
+    font-family: 'Young Serif', serif;
 }
 
 nav a header{
@@ -61,29 +78,29 @@ nav a header{
 }
 
 h4{
-    background-color: bisque;
     color:midnightblue;
 }
 
 h2{
     background-color:bisque;
     color: midnightblue;
+    margin: 0;
 }
 
-.join{
-    background-color: bisque;
-    color:black;
-    text-decoration: none;
-}
+
 .join:hover{
     background-color: gray;
     color:blue;
 }
 
-.book{
+.book, .join{
     background-color: bisque;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -94,22 +111,36 @@ h2{
 .msg h2{
     background-color: bisque;
     color: midnightblue;
+    font-family: 'Young Serif', serif;
+}
+
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+    
 }
 
 .msg p{
     background-color:bisque;
     color: midnightblue;
+    font-size: .8em;
+    padding-bottom: 15px;
+    
 }
 
 footer{
     background-color:darkgray;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+   
 }
 
 footer a{
     background-color: darkgray;
     color:midnightblue;
     text-decoration: none;
+   
 }
 
 a:hover{
@@ -119,9 +150,36 @@ a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p{
     font-size: 1.2em;
     text-decoration: underline;
+}
+
+.home-title{
+    font-family: 'Young Serif', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
