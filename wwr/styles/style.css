@@ -82,7 +82,7 @@ h4{
 }
 
 h2{
-    background-color:bisque;
+    background-color:darkgray;
     color: midnightblue;
     margin: 0;
 }
@@ -109,7 +109,7 @@ h2{
 }
 
 .msg h2{
-    background-color: bisque;
+    background-color: darkgray;
     color: midnightblue;
     font-family: 'Young Serif', serif;
 }
@@ -117,11 +117,10 @@ h2{
 .msg{
     line-height: 1.5em;
     padding: 35px;
-    
 }
 
 .msg p{
-    background-color:bisque;
+    background-color: darkgray;
     color: midnightblue;
     font-size: .8em;
     padding-bottom: 15px;
@@ -186,4 +185,9 @@ main section img {
 
 .extraborder{
     border: 10px solid #d9c2a3;
+}
+
+.msg{
+    background-color :darkgray;
+    color:darkgray;
 }
