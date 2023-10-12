@@ -36,7 +36,7 @@ main section{
 
 #hero-msg{
     text-align: center;
-    border: 10px solid #d9c2a3;
+    /* border: 10px solid #d9c2a3; */
 }
 
 #hero-img{
@@ -168,7 +168,7 @@ footer p{
     padding-top: 5px;
 }
 
-footer .social img{
+footer .social img{ 
     padding-top: 15px;
 }
 
@@ -182,4 +182,8 @@ footer .social img{
 
 main section img {
     box-sizing: border-box;
+}
+
+.extraborder{
+    border: 10px solid #d9c2a3;
 }
