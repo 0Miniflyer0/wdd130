@@ -58,7 +58,7 @@ main section{
 body{
     background-color: bisque;
     color: bisque;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif, helvetica;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -69,7 +69,7 @@ body{
 header {
     background-color: darkgray;
     color:darkgray;
-    font-family: 'Young Serif', serif;
+    font-family: 'Young Serif', serif, arial;
 }
 
 nav a header{
@@ -111,7 +111,7 @@ h2{
 .msg h2{
     background-color: darkgray;
     color: midnightblue;
-    font-family: 'Young Serif', serif;
+    font-family: 'Young Serif', serif, arial;
 }
 
 .msg{
@@ -158,7 +158,7 @@ footer p{
 }
 
 .home-title{
-    font-family: 'Young Serif', serif;
+    font-family: 'Young Serif', serif, helvetica;
     font-size: 2em;
     margin-top: 10px;
 }
