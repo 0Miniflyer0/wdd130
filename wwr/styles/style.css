@@ -46,7 +46,7 @@ main section{
 #hero-img{
     width: 1550px;
     height: 700px;
-    border: 10px solid darkgray;
+    border: 10px solid black;
 
 }
 #hero-msg h4{
