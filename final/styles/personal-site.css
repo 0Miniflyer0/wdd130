@@ -1,0 +1,32 @@
+
+/* home page css */
+
+.intro p{
+    font-size:30px;
+}
+
+.intro2 p {
+    font-size:30px;
+}
+
+.play_game{
+    height:1000px;
+}
+
+.play_game2{
+    height:750px;
+}
+
+.footernav{
+    font-size:40px;
+}
+
+
+/* page 1 css */
+.pg1content p{
+    font-size: 30px;
+}
+
+.pg1content_2 p{
+    font-size: 30px;
+}
