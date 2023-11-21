@@ -83,12 +83,13 @@ body{
 }
 
 h1{
-    font-size:100px;
+    font-size:70px;
     text-align:center;
     grid-column: 4/6;
     font-family: 'Open Sans', sans-serif;
     border:10px solid ;
-    box-shadow: 0 0 150px black;
+    box-shadow: 0 0 20px black;
+    box-sizing: border-box;
 }
 .header-grid{
     display:grid;
