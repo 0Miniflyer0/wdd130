@@ -7,10 +7,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #5A5A5A;
+  --primary-color: #778899;
   --secondary-color: #72195A ;
-  --accent1-color: #64B6AC;
-  --accent2-color:  #39A0ED;
+  --accent1-color: #008080;
+  --accent2-color:  #00008B;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Opens Sans Regualar 400';
