@@ -71,15 +71,15 @@ body{
 .logo_1{
     width: 500px;
     grid-row: 1/2;
-    border:10px solid ;
-    box-shadow: 0 0 20px white;
+    border:50px solid ;
+    box-shadow: 0 0 100px white;
 }
 
 .logo_2{
     width: 500px;
     grid-column: 8/8;
-    border:10px solid ;
-    box-shadow: 0 0 20px white;
+    border:50px solid ;
+    box-shadow: 0 0 100px white;
 }
 
 h1{
