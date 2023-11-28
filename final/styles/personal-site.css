@@ -29,16 +29,16 @@
 }
 
 .play_game{
-    height:1000px;
-    grid-column: 4/5;
+    width:90%;
+    grid-column: 1/9;
     margin-bottom: 75px;
     border: 10px solid teal;
     box-shadow: 0 0 100px teal;
 }
 
 .play_game2{
-    height:750px;
-    grid-column: 4/5;
+    width:90%;
+    grid-column: 1/9;
     margin-top: 100px;
     border: 10px solid teal;
     box-shadow: 0 0 100px teal;
@@ -113,11 +113,13 @@ h1{
 .intro{
     display:grid;
     grid-template-columns: repeat(8, 1fr);
+    justify-items: center;
 }
 
 .intro2{
     display:grid;
     grid-template-columns: repeat(8, 1fr);
+    justify-items: center;
 }
 /* page 1 and 2 css */
 /* page 1 and 2 are gonna have similar wire-frames because i wanna stay loyal to most game review sites. */
