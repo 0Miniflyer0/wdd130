@@ -6,7 +6,7 @@
 
 
 .intro p{
-    font-size:50px;
+    font-size:25px;
     text-align:center;
     margin-top: 100px;
     grid-column: 4/6;
@@ -14,16 +14,18 @@
     border: 10px solid darkblue;
     box-shadow: 0 0 50px darkblue;
     font-family: 'Merriweather', serif;
+    padding: 20px;
 }
 
 .intro2 p {
-    font-size:40px;
+    font-size:25px;
     text-align:center;
     grid-column: 4/6;
     grid-row: 1/1;
     border: 10px solid darkblue; 
     box-shadow: 0 0 50px darkblue;
     font-family: 'Merriweather', serif;
+    padding: 20px;
 }
 
 .play_game{
@@ -47,7 +49,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    font-size: 40px;
+    font-size: 25px;
     border:10px solid ;
     box-shadow: 0 0 20px black;
     margin-top: 100px;
@@ -69,21 +71,30 @@ body{
     background-color:lightslategray;
 }
 .logo_1{
-    width: 500px;
+    width: 200px;
     grid-row: 1/2;
     border:50px solid ;
     box-shadow: 0 0 100px white;
 }
 
+.logo_1:hover {
+    opacity: 0.7; 
+}
+
 .logo_2{
-    width: 500px;
+    width: 200px;
     grid-column: 8/8;
     border:50px solid ;
     box-shadow: 0 0 100px white;
 }
 
+.logo_2:hover {
+    opacity: 0.7; 
+}
+
+
 h1{
-    font-size:100px;
+    font-size:40px;
     text-align:center;
     grid-column: 4/6;
     font-family: 'Open Sans', sans-serif;
