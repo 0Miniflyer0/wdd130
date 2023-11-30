@@ -123,10 +123,117 @@ h1{
 }
 /* page 1 and 2 css */
 /* page 1 and 2 are gonna have similar wire-frames because i wanna stay loyal to most game review sites. */
-.pg1content p{
-    font-size: 30px;
+
+.pg1content{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
 }
 
+.pg1content_2{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+
+.game1{
+    width: 1200px;
+    margin-top: 100px;
+    grid-column: 3/8;
+    grid-row: 1/1;
+    border: 10px solid teal;
+    box-shadow: 0 0 100px teal;
+}
+
+.pg1content p{
+    font-size:25px;
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-column: 2/8;
+    grid-row: 2/3;
+    border: 10px solid darkblue;
+    box-shadow: 0 0 50px darkblue;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+}
+
+
+.game1-2{
+    width: 1200px;
+    margin-top: 100px;
+    grid-column: 3/8;
+    grid-row: 2/2;
+    border: 10px solid darkred;
+    box-shadow: 0 0 100px red;
+}
 .pg1content_2 p{
-    font-size: 30px;
+    font-size:25px;
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-column: 2/8;
+    grid-row: 4/5;
+    border: 10px solid darkred;
+    box-shadow: 0 0 50px red;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    color: darkred
+}
+
+
+/* pg2 css, since subpage 1 & 2 are the same this is just for cosmetic purposes */
+.pg2content{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+
+.game2{
+    width: 1200px;
+    margin-top: 100px;
+    grid-column: 3/8;
+    grid-row: 1/1;
+    border: 10px solid teal;
+    box-shadow: 0 0 100px teal;
+}
+
+.pg2content p{
+    font-size:25px;
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-column: 2/8;
+    grid-row: 2/3;
+    border: 10px solid darkblue;
+    box-shadow: 0 0 50px darkblue;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+}
+
+
+.pg2content_2{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.game2-2{
+    width: 1200px;
+    margin-top: 100px;
+    grid-column: 3/8;
+    grid-row: 2/2;
+    border: 10px solid darkslategray;
+    box-shadow: 0 0 100px blue;
+}
+
+.pg2content_2 p{
+    font-size:22px;
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-column: 3/8;
+    grid-row: 4/5;
+    border: 10px solid darkgreen;
+    box-shadow: 0 0 50px green;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
 }
