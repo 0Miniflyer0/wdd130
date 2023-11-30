@@ -140,8 +140,8 @@ h1{
     margin-top: 100px;
     grid-column: 3/8;
     grid-row: 1/1;
-    border: 10px solid teal;
-    box-shadow: 0 0 100px teal;
+    border: 10px solid darkblue;
+    box-shadow: 0 0 100px blue;
 }
 
 .pg1content p{
@@ -152,7 +152,7 @@ h1{
     grid-column: 2/8;
     grid-row: 2/3;
     border: 10px solid darkblue;
-    box-shadow: 0 0 50px darkblue;
+    box-shadow: 0 0 50px blue;
     font-family: 'Merriweather', serif;
     padding: 20px;
 }
@@ -193,14 +193,14 @@ h1{
     margin-top: 100px;
     grid-column: 3/8;
     grid-row: 1/1;
-    border: 10px solid teal;
-    box-shadow: 0 0 100px teal;
+    border: 10px solid darkblue;
+    box-shadow: 0 0 100px blue;
 }
 
 .pg2content p{
     font-size:25px;
     text-align:center;
-    margin-top: 100px;
+    margin-top: 100px;  
     margin-bottom: 100px;
     grid-column: 2/8;
     grid-row: 2/3;
