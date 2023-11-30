@@ -145,7 +145,7 @@ h1{
 }
 
 .pg1content p{
-    font-size:25px;
+    font-size:20px;
     text-align:center;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -167,7 +167,7 @@ h1{
     box-shadow: 0 0 100px red;
 }
 .pg1content_2 p{
-    font-size:25px;
+    font-size:20px;
     text-align:center;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -198,7 +198,7 @@ h1{
 }
 
 .pg2content p{
-    font-size:25px;
+    font-size: 20px;
     text-align:center;
     margin-top: 100px;  
     margin-bottom: 100px;
@@ -226,7 +226,7 @@ h1{
 }
 
 .pg2content_2 p{
-    font-size:22px;
+    font-size:20px;
     text-align:center;
     margin-top: 100px;
     margin-bottom: 100px;
