@@ -156,6 +156,7 @@ h1{
     font-family: 'Merriweather', serif;
     padding: 20px;
     width: 101%;
+    line-height: 1.5em;
 }
 
 
@@ -179,7 +180,8 @@ h1{
     font-family: 'Merriweather', serif;
     padding: 20px;
     color: darkred;
-    width: 101%
+    width: 101%;
+    line-height: 1.5em;
 }
 
 
@@ -210,6 +212,7 @@ h1{
     box-shadow: 0 0 50px darkblue;
     font-family: 'Merriweather', serif;
     padding: 20px;
+    line-height: 1.5em;
 }
 
 
@@ -234,8 +237,9 @@ h1{
     margin-bottom: 100px;
     grid-column: 2/8;
     grid-row: 4/5;
-    border: 10px solid darkgreen;
+    border: 10px solid black;
     box-shadow: 0 0 50px green;
     font-family: 'Merriweather', serif;
     padding: 20px;
+    line-height: 1.5em;
 }
