@@ -198,7 +198,7 @@ h1{
     grid-column: 2/8;
     grid-row: 1/1;
     border: 10px solid darkblue;
-    box-shadow: 0 0 100px blue;
+    box-shadow: 0 0 100px teal;
 }
 
 .pg2content p{
@@ -209,7 +209,7 @@ h1{
     grid-column: 2/8;
     grid-row: 2/3;
     border: 10px solid darkblue;
-    box-shadow: 0 0 50px darkblue;
+    box-shadow: 0 0 50px teal;
     font-family: 'Merriweather', serif;
     padding: 20px;
     line-height: 1.5em;
@@ -226,8 +226,8 @@ h1{
     margin-top: 100px;
     grid-column: 2/8;
     grid-row: 2/2;
-    border: 10px solid darkslategray;
-    box-shadow: 0 0 100px blue;
+    border: 10px solid midnightblue;
+    box-shadow: 0 0 100px white;
 }
 
 .pg2content_2 p{
@@ -238,7 +238,7 @@ h1{
     grid-column: 2/8;
     grid-row: 4/5;
     border: 10px solid black;
-    box-shadow: 0 0 50px green;
+    box-shadow: 0 0 50px whitesmoke;
     font-family: 'Merriweather', serif;
     padding: 20px;
     line-height: 1.5em;
