@@ -237,7 +237,7 @@ h1{
     margin-bottom: 100px;
     grid-column: 2/8;
     grid-row: 4/5;
-    border: 10px solid pink;
+    border: 10px solid black;
     box-shadow: 0 0 50px whitesmoke;
     font-family: 'Merriweather', serif;
     padding: 20px;
